@@ -2,7 +2,7 @@
 
 This is a simple example of finetuning an LLM model using pre-existing 'tweet_sentiment extraction' [dataset](https://huggingface.co/datasets/mteb/tweet_sentiment_extraction) from huggingface. 
 
-### Steps: 
+### See below for details: 
 
 - Import modules - numpy, pandas, datasets, transformers, and evaluate
 - load datasets (uses 'dataset' library by hugging face
