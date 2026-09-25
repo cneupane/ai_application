@@ -4,7 +4,7 @@ This is a simple example of finetuning an LLM model using pre-existing 'tweet_se
 
 ### Steps: 
 
-- import modules - numpy, pandas, datasets, transformers, and evaluate
+- Import modules - numpy, pandas, datasets, transformers, and evaluate
 - load datasets (uses 'dataset' library by hugging face
 - run tokenizer (GPT2 tokenizer) to prepare dataset for training. This step break downs raw data into smaller pieces (tokens) so that computation per indexed dictionary word can be efficiently done.
 - Randomly split 'training' and 'evaluation' dataset used for training and eveluation metrices generation after training (can be done per epoch).
