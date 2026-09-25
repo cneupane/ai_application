@@ -12,6 +12,7 @@ This is a simple example of finetuning an LLM model using pre-existing 'tweet_se
 - Define/pass evaluation function to trainer to evaluate the model between training epochs.
 - Train the model using 'Trainer' method from transformers library. Set training arguments (training batch, evaluation batch, gradient collection steps, and number of epochs as appropriate based on machine specification (e.g. GPU, memory).
 - Start training/evaluation
+- Training output files are saved in 'training_runs' folder.
 
 
 
