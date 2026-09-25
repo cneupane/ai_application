@@ -1,6 +1,6 @@
 # Finetuning GPT2 model using pre-trained baseline model and tweet_sentiment dataset
 
-This is a simple example of finetuning an LLM model using pre-existing 'tweet_sentiment' [dataset](https://huggingface.co/datasets/mteb/tweet_sentiment_extraction) from huggingface. 
+This is a simple example of finetuning an LLM model using pre-existing 'tweet_sentiment extraction' [dataset](https://huggingface.co/datasets/mteb/tweet_sentiment_extraction) from huggingface. 
 
 ### Steps: 
 
