@@ -12,7 +12,6 @@ from transformers import TrainingArguments, Trainer
 dataset = load_dataset("mteb/tweet_sentiment_extraction")
 df = pd.DataFrame(dataset["train"])
 
-
 # Loading the dataset to train our model
 # dataset = load_dataset("mteb/tweet_sentiment_extraction")
 
@@ -45,7 +44,6 @@ def compute_metrics(eval_pred):
    logits, labels = eval_pred
    predictions = np.argmax(logits, axis=-1)
    return metric.compute(predictions=predictions, references=labels)
-
 
 ##define training parameters
 training_args = TrainingArguments(
