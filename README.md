@@ -14,5 +14,13 @@ This is a simple example of finetuning an LLM model using pre-existing 'tweet_se
 - Start training/evaluation
 - Training output files are saved in 'training_runs' folder.
 
+# Inference
+Inference tested using tweet/comments samples from a .txt file. 
+Some sample results here: 
 
+![gpt2 tweet sentiment inference](./assets/inference_1.png)
+
+This repository only provides process for finetuning gpt2 using sentiment classification data from huggingface. Training on larger datasets can improve the result. For example - result can be misleading on some indirect comments as below:
+
+![gpt2 tweet sentiment inference](./assets/inference_2.png)
 
